@@ -3,7 +3,8 @@
 
 int main()
 {
-    int low, high, i, temp1=0, temp2, remainder, n = 0, result = 0;
+    int low, high, i, temp1=0, temp2, n = 0, result = 0;
+    float remainder;
 
     printf("Enter two numbers(intervals): ");
     scanf("%d %d", &low, &high);
